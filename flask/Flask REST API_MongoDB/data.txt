@@ -1,0 +1,58 @@
+data1 = {
+        "Status": "True",
+        "Document":{
+            "brand_name": "Akshay_P",
+            "classification_l1": "baby & child",
+            "classification_l2": "soft toys",
+            "classification_l3": "",
+            "classification_l4": "",
+            "currency": "GBP",
+            "image_url": "https://johnlewis.scene7.com/is/image/JohnLewis/237070760?",
+            "name": "Pet Shop, Pink",
+            "offer_price_value": 30,
+            "regular_price_value": 30
+        }
+    }
+
+data1 = {
+        "Status": "True",
+        "Document":{
+            "brand_name": "AK123",
+            "classification_l1": "baby & child",
+            "classification_l2": "soft toys",
+            "classification_l3": "",
+            "classification_l4": "",
+            "currency": "GBP",
+            "image_url": "https://johnlewis.scene7.com/is/image/JohnLewis/237070760?",
+            "name": "Pet Shop, Black",
+            "offer_price_value": 30,
+            "regular_price_value": 30
+        }
+    }
+
+update_data = 
+    {
+        "Status": "True",
+        "Filter":{
+           "brand_name": "AK123"
+        },
+        "DataToBeUpdated":{
+           "name": "Pet Shop, Black",
+           "offer_price_value": 40
+        }
+    }
+
+delete_data = 
+    {
+        "Status": "True",
+        "Filter":{
+           "brand_name": "AK123"
+        }
+    }
+
+    {
+        "Status": "True",
+        "Filter":{
+           "brand_name": "Akshay_P"
+        }
+    }
